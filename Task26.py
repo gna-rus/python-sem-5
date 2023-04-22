@@ -29,6 +29,6 @@ def Fun_of_Pow(A, B):
 # Ввод данных
 try:
     A, B = int(input("Чмсло А: ")), int(input("Степень В: "))
-    print(Fun_of_Pow(A, B))
+    print(f"A^B = {Fun_of_Pow(A, B)}")
 except:
     print("Error! Некорректный ввод данных")
