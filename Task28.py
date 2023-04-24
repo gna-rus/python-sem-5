@@ -27,4 +27,4 @@ try:
     A, B = int(input("Чмсло А = ")), int(input("Число В = "))
     print(f"А + В = {Fun_of_Sum(A, B)}")
 except:
-    print("Error! Некорректный ввод")
+    print("Error! Некорректный ввод данных")
