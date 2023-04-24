@@ -16,7 +16,6 @@ def Fun_of_Sum(A, B):
     :param B: число
     :return: рекурся с учетом ввода степени больше и меньше нуля
     """
-
     if B == 0:
         return A
     if B > 0:

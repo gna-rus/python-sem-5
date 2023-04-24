@@ -26,7 +26,6 @@ def Fun_of_Pow(A, B):
     if B <= -1:
         return 1 / A * Fun_of_Pow(A, B + 1)
 
-
 # Ввод данных
 try:
     A, B = int(input("Чмсло А: ")), int(input("Степень В: "))
