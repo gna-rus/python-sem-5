@@ -8,7 +8,6 @@ A = 3; B = 5 -> 243 (3⁵)
 
 '''
 
-
 # создаем рекурсивную функцию
 def Fun_of_Pow(A, B):
     """
@@ -24,7 +23,6 @@ def Fun_of_Pow(A, B):
         return A * Fun_of_Pow(A, B - 1)
     if B <= -1:
         return 1 / A * Fun_of_Pow(A, B + 1)
-
 
 # Ввод данных
 try:
